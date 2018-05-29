@@ -88,13 +88,20 @@
 			bottom: 0;
 			box-shadow: $box-shadow;
 			display: flex;
-			flex-direction: row-reverse;
+			// flex-direction: row-reverse;
 			height: 60px;
 			left: 0;
-			padding: 1em;
+			padding: 1em 4em 1em 2em;
 			position: absolute;
 			right: 0;
 			z-index: 100002;
+			.secondary {
+				margin-right: auto;
+				// margin: 10px;
+			}
+			.primary {
+				margin-left: auto;
+			}
 		}
 	}
 }
